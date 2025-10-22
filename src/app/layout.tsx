@@ -22,7 +22,8 @@ export const metadata: Metadata = {
   description:
     "Transform your photos with AI-powered enhancement and editing tools.",
     verification: {
-    google: "8A7k3NPDSCrxQiqZS57BrjsRg1jo-CMG0x9Kb7tarEA",
+    google: "MCHJVTM9tliXHuTTSkG-3dJ8Qs9nHqKktw3V0n3RxeM",
+
   },
 };
 
