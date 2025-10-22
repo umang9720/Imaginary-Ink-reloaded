@@ -54,7 +54,7 @@ export function Footer() {
               </Button>
               <Button variant="ghost" size="icon" asChild>
                 <Link
-                  href="/"
+                  href="https://github.com/umang9720"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
