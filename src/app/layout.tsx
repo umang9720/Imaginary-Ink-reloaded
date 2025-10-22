@@ -5,7 +5,7 @@ import { Appbar } from "@/components/Appbar";
 import { Providers } from "@/components/providers/Providers";
 import { Footer } from "@/components/Footer";
 import Script from "next/script";
-import type { Metadata } from "next";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
