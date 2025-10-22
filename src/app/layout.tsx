@@ -5,6 +5,7 @@ import { Appbar } from "@/components/Appbar";
 import { Providers } from "@/components/providers/Providers";
 import { Footer } from "@/components/Footer";
 import Script from "next/script";
+import type { Metadata } from "next";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +21,9 @@ export const metadata: Metadata = {
   title: "ImaginaryInk - AI-Powered Photo Enhancement",
   description:
     "Transform your photos with AI-powered enhancement and editing tools.",
+    verification: {
+    google: "8A7k3NPDSCrxQiqZS57BrjsRg1jo-CMG0x9Kb7tarEA",
+  },
 };
 
 export default function RootLayout({
@@ -50,3 +54,8 @@ export default function RootLayout({
     </html>
   );
 }
+// app/layout.tsx
+
+
+
+
